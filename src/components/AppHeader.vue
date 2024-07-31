@@ -19,5 +19,6 @@ header {
     color: black;
     padding: 5px;
     height: 50px;
+    text-align: center;
 }
 </style>
