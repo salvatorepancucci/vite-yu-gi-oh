@@ -22,7 +22,17 @@ export default {
 </script>
 
 <template>
- 
+ <main>
+    <div class="container">
+      <div class="row">
+        <AppCard
+          v-for="card in cards"
+          :key="card.id"
+          :card="card"
+        />
+      </div>
+    </div>
+  </main>
 </template>
 
 <style lang="scss" scoped>
