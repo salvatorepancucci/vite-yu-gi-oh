@@ -38,4 +38,7 @@ export default {
 <style lang="scss" scoped>
 @import './styles/generals.scss';
 
+main {
+    background-color: $primary-color;
+}
 </style>

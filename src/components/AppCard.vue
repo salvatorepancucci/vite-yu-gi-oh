@@ -1,5 +1,10 @@
 <script>
-
+export default {
+  name: 'AppCard',
+  props: {
+    card: Object
+  }
+}
 </script>
 
 <template>
